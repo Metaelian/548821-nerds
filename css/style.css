@@ -1,0 +1,8 @@
+.studio {
+/*	color: red;*/
+	outline: 1px dashed red;
+}
+.studio div {
+/*	color: red;*/
+	outline: 1px dashed green;
+}
