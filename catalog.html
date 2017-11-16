@@ -26,7 +26,53 @@
 		<div class="catalog-title">
 			<h1>Магазин готовых шаблонов</h1>
 		</div>
-		<form class="catalog-form">
+		<form class="catalog-form" action="#" method="post">
+			<fieldset>
+				<p>Стоимость:</p>
+			</fieldset>
+			<fieldset class="catalog-form-grid">
+				<legend>Сетка:</legend>
+				<ul>
+					<li>
+						<input class="visually-hidden" id="grid-adaptive" type="radio" name="grid" value="Адаптивная" checked>
+						<label for="grid-adaptive">Адаптивная</label>
+					</li>
+					<li>
+						<input class="visually-hidden" id="grid-fixed" type="radio" name="grid" value="Фмксированная">
+						<label for="grid-fixed">Фиксированная</label>
+					</li>
+					<li>
+						<input class="visually-hidden" id="grid-rubber" type="radio" name="grid" value="Резиновая">
+						<label for="grid-rubber">Резиновая</label>
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset class="catalog-form-features">
+				<legend>Особенности:</legend>
+				<ul>
+					<li>			
+						<input class="visually-hidden" type="checkbox" name="features-slider" id="slider-field" checked>
+						<label for="slider-field">Слайдер</label>
+					</li>
+					<li>
+						<input class="visually-hidden" type="checkbox" name="features-block-of-features" id="block-of-features-field">
+						<label for="block-of-features-field">Блок преимуществ</label>
+					</li>				
+					<li>
+						<input class="visually-hidden" type="checkbox" name="features-news" id="news-field" checked>
+						<label for="news-field">Новости</label>
+					</li>
+					<li>				
+						<input class="visually-hidden" type="checkbox" name="features-gallery" id="gallery-field">
+						<label for="gallery-field">Галерея</label>
+					</li>
+					<li>				
+						<input class="visually-hidden" type="checkbox" name="features-basket" id="basket-field">
+						<label for="basket-field">Корзина</label>
+					</li>
+				</ul>
+			</fieldset>
+			<button class="btn btn-grey" type="submit">Показать</button>
 		</form>
 		<section class="catalog">
 			<div class="catalog-sorting">
@@ -45,9 +91,58 @@
 				<li class="catalog-item">
 					<img src="img/#" alt="sedona">
 					<div class="catalog-item-description">
-						<a class="catalog-item-description-link" href="#">Sedona</a>
-						<p>Информационный сайт</p>
-						<p>для туристов</p>
+						<a class="catalog-item-description-link" href="#"><h3>Sedona</h3></a>
+						<p>Информационный сайт для туристов</p>
+						<a class="btn btn-red" href="#">9900 РУБ.</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="catalog-list">
+				<li class="catalog-item">
+					<img src="img/#" alt="pink app">
+					<div class="catalog-item-description">
+						<a class="catalog-item-description-link" href="#"><h3>Pink APP</h3></a>
+						<p>Продуктовый лендинг приложения для iOS и Android</p>
+						<a class="btn btn-red" href="#">9900 РУБ.</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="catalog-list">
+				<li class="catalog-item">
+					<img src="img/#" alt="Barbershop">
+					<div class="catalog-item-description">
+						<a class="catalog-item-description-link" href="#"><h3>Barbershop</h3></a>
+						<p>Сайт салона красоты. Для мужчин, да.</p>
+						<a class="btn btn-red" href="#">9900 РУБ.</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="catalog-list">
+				<li class="catalog-item">
+					<img src="img/#" alt="Mishka">
+					<div class="catalog-item-description">
+						<a class="catalog-item-description-link" href="#"><h3>Mishka</h3></a>
+						<p>Интернет-магазин вязаных игрушек</p>
+						<a class="btn btn-red" href="#">9900 РУБ.</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="catalog-list">
+				<li class="catalog-item">
+					<img src="img/#" alt="Plus">
+					<div class="catalog-item-description">
+						<a class="catalog-item-description-link" href="#"><h3>A Plus</h3></a>
+						<p>Лендинг курсов повышения квалификации</p>
+						<a class="btn btn-red" href="#">9900 РУБ.</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="catalog-list">
+				<li class="catalog-item">
+					<img src="img/#" alt="Kvast">
+					<div class="catalog-item-description">
+						<a class="catalog-item-description-link" href="#"><h3>Кваст</h3></a>
+						<p>Промо-сайт производителя крафтового кваса</p>
 						<a class="btn btn-red" href="#">9900 РУБ.</a>
 					</div>
 				</li>
